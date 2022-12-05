@@ -1,0 +1,336 @@
+﻿@media only screen and (max-width: 768px) {
+	.header-container, .container, .footer-inner {
+		width: 92%;
+		margin: 0 auto;
+	}
+	
+	.header-wrapper-top, .header-wrapper-bottom{
+		display: none;
+	}
+	
+	.content-wrapper{
+		margin-top: 60px;	
+	}
+	
+	.inner-container{
+		margin-bottom: 20px;
+	}
+	
+	.menu-btn {
+		display: block !important;
+	}
+	
+	.boxes-wrapper .box{
+		width: 31%;
+	}
+	.footer-bottom-left{
+		float: none;
+		text-align: center;
+		margin-bottom: 10px;
+	}
+	.footer-bottom-left div{
+		float: none !important;
+	}
+	.footer-bottom-right{
+		float: none;
+		text-align: center;
+		margin-top: 0px;
+		padding-bottom: 20px;
+	}
+	.footer-promo{
+		height: auto;
+	}
+	#live-chat{
+		display:none;
+	}
+	
+	.footer-bottom{
+		margin-bottom: 60px;
+	}
+	
+	.mobile-footer-menu{
+		display: block;		
+		list-style-type: none;
+		margin: 0;
+		padding: 0;
+		overflow: overlay;
+		background: #5d5d5d;
+		background: -moz-linear-gradient(top, #5d5d5d 0%, #151414 100%);
+		background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#5d5d5d), color-stop(100%,#151414));
+		background: -webkit-linear-gradient(top, #5d5d5d 0%,#151414 100%);
+		background: -o-linear-gradient(top, #5d5d5d 0%,#151414 100%);
+		background: -ms-linear-gradient(top, #5d5d5d 0%,#151414 100%);
+		background: linear-gradient(to bottom, #5d5d5d 0%,#151414 100%);
+		position: fixed;
+		bottom: 0;
+		width: 100%;
+		border-top: 1px solid #f4f5f7;
+		line-height: 20px;
+		z-index:9999;
+	}
+	
+	.mobile-footer-menu ul{
+		display: block;		
+		list-style-type: none;
+		margin: 0;
+		padding: 0;
+		width: 720px;
+	}
+
+	.mobile-footer-menu li {
+		float: left;
+		text-align: center;
+		width: 80px;
+	}
+	.mobile-footer-menu li i{
+		font-size: 22px;
+	}
+	.mobile-footer-menu li a {
+		display: block;
+		color: white;
+		padding: 10px 0px;
+		text-decoration: none;
+	}
+	
+	.mobile-footer-menu .active {
+		background: #bc972b;
+		background: -moz-linear-gradient(top, #bc972b 0%, #d8b347 100%);
+		background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#bc972b), color-stop(100%,#d8b347));
+		background: -webkit-linear-gradient(top, #bc972b 0%,#d8b347 100%);
+		background: -o-linear-gradient(top, #bc972b 0%,#d8b347 100%);
+		background: -ms-linear-gradient(top, #bc972b 0%,#d8b347 100%);
+		background: linear-gradient(to bottom, #bc972b 0%,#d8b347 100%);
+	}
+	.footer-top .bbox{
+		max-width: 100% !important;
+		margin-bottom: 20px;
+	}
+	.counter1, .counter2, .counter3 {
+		margin-top: -82px;
+		margin-left: 42px;	
+	}
+	.footer-top {
+		margin-bottom: 0px;
+	}
+	#sub-nav{
+		background-size: 100% 58px;
+		width: 100%;
+	}
+	.promo-box{
+		width: 90% !important;
+	}
+	.rspv-menu-lang img{
+		width: 15px; 
+		margin-right: 5px;
+	}
+
+}
+
+@media only screen and (min-width: 668px) and (max-width: 736px){
+	.boxes-wrapper .box {
+		width: 219px;
+		margin-right: 10px;
+	}
+	.boxes-wrapper .box:nth-child(3) {
+		margin-right: 0px;
+	}
+	.counter1, .counter2, .counter3 {
+		margin-top: -80px;
+		margin-left: 40px;
+	}
+}
+
+@media only screen and (min-width: 641px) and (max-width: 667px){
+	.boxes-wrapper .box {
+		width: 197px;
+		margin-right: 10px;
+	}
+	.boxes-wrapper .box:nth-child(3) {
+		margin-right: 0px;
+	}
+	.counter1, .counter2, .counter3 {
+		margin-top: -77px;
+		margin-left: 33px;
+	}	
+}
+
+@media only screen and (max-width: 640px) {
+	.boxes-wrapper .box {
+		width: 189px;
+		margin-right: 10px;
+	}
+	.boxes-wrapper .box:nth-child(3) {
+		margin-right: 0px;
+	}
+	.counter1, .counter2, .counter3 {
+		margin-top: -74px;
+		margin-left: 27px;
+	}
+	
+}
+
+@media only screen and (max-width: 568px) {
+	.boxes-wrapper .box {
+		width: 167px;
+		margin-right: 10px;
+	}
+	.counter1, .counter2, .counter3 {
+		margin-top: -68px;
+		margin-left: 17px;
+	}
+}
+
+@media only screen and (max-width: 480px) {
+	.boxes-wrapper .box {
+		width: 440px;		
+		float: none;
+		margin: 0 auto;
+		margin-bottom: 20px;
+	}
+	.boxes-wrapper .box:nth-child(3) {
+		margin-right: auto;
+	}
+	.counter1{
+		margin-top: -157px;
+		margin-left: 80px;
+
+	}
+	
+	 .counter2{
+	 	margin-top: -157px;
+		margin-left: 50px;
+
+	
+	}
+
+	 .counter3 {
+		margin-top: -157px;
+		margin-left: 153px;
+	}
+}
+
+@media only screen and (min-width: 361px) and (max-width: 414px){
+	.boxes-wrapper .box {
+		width: 330px;		
+		float: none;
+		margin: 0 auto;
+		margin-bottom: 20px;
+	}
+	.boxes-wrapper .box:nth-child(3) {
+		margin-right: auto;
+	}
+	.counter1{
+		margin-top: -118px;
+		margin-left: 30px;
+
+	}
+	.counter2{
+		margin-top: -118px;
+		margin-left: 20px;
+
+	}
+	 .counter3 {
+		margin-top: -118px;
+		margin-left: 98px;
+		
+	}
+}
+
+@media only screen and (max-width: 360px) {
+	.boxes-wrapper .box {
+		width: 330px;		
+		float: none;
+		margin: 0 auto;
+		margin-bottom: 20px;
+	}
+	.boxes-wrapper .box:nth-child(3) {
+		margin-right: auto;
+	}
+	.counter1{
+		margin-top: -118px;
+		margin-left: 30px;
+
+	}
+
+	.counter2{
+		margin-top: -118px;
+		margin-left: 20px;
+
+
+	}
+	 .counter3 {
+		margin-top: -118px;
+		margin-left: 98px;
+	}
+	ul.gaming li{
+		line-height: 0px;
+		height: auto;
+		width: 70%;
+		margin: 0 auto;
+		display: block;
+		margin-top: 20px;
+		float: none;
+	}
+	ul.gaming li img {
+		height: auto;
+		width: 100%;
+	}
+}
+
+@media only screen and (max-width: 320px) {
+	.boxes-wrapper .box {
+		width: 290px;
+	}
+	.counter1{
+		margin-top: -106px;
+		margin-left: 10px;
+
+	}
+
+	.counter2 {
+		margin-top: -106px;
+		margin-left: -5px;
+
+	}
+	 .counter3 {
+		margin-top: -106px;
+		margin-left: 80px;
+		
+	}
+	#sub-nav li{
+		width: 140px;
+	}
+	#sub-nav li:nth-of-type(1).active ~ #lavalamp {
+		left: 38px;
+	}
+	#sub-nav li:nth-of-type(2).active  ~ #lavalamp {
+		left: 183px;
+	}
+	#sub-nav li:nth-of-type(3).active  ~ #lavalamp {
+		left: 328px;
+	}
+
+	#sub-nav li:nth-of-type(1):hover ~ #lavalamp {
+		left: 38px;
+	}
+	#sub-nav li:nth-of-type(2):hover ~ #lavalamp {
+		left: 183px;
+	}
+	#sub-nav li:nth-of-type(3):hover ~ #lavalamp {
+		left: 328px;
+	}
+
+	ul.gaming li{
+		line-height: 0px;
+		height: auto;
+		width: 80%;
+		margin: 0 auto;
+		display: block;
+		margin-top: 20px;
+		float: none;
+	}
+	ul.gaming li img {
+		height: auto;
+		width: 100%;
+	}
+}
