@@ -68,7 +68,8 @@ a.lang-dropdown {
 
 .modal-color{
 	padding:25px;
-	background-color:#283362;
+	/* background-color:#283362; */
+	background-color: #503A00;
 }
 
 .yellow-btn{
