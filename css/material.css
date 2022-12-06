@@ -139,7 +139,8 @@ a:link {
 
 .rcorners4 {
   border-radius: 20px 20px 20px 20px;
-  background: #1f2a4f;
+  /* background: #1f2a4f; */
+  background: #503A00;
   padding: 20px; 
   width: 90%;
   height: 100px;
@@ -208,7 +209,8 @@ a:link {
 }
 
 .blue-bg{
-	background-image: linear-gradient(0deg, #141b34 0%, #212c54 100%);
+	/* background-image: linear-gradient(0deg, #141b34 0%, #212c54 100%); */
+	background-image: linear-gradient(0deg, #503A00 0%, #251a00 60%, #000000 100%) !important;
 	text-align:center;
 	height:50px;
 }
